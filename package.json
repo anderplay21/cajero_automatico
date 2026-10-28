@@ -1,0 +1,13 @@
+{
+  "name": "sistema-atm-tecbank201d",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Simulador de cajero automatico bancario TecBank201D",
+  "scripts": {
+    "start": "node server.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.js",
+    "check": "node --check src/main.js && node --check src/domain/atm-service.js && node --check src/ui/app.js"
+  }
+}
